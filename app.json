@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "newArchEnabled": true,
+    "name": "ETIQUETTE",
+    "slug": "etiquette-rn",
+    "version": "1.0.1",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/adaptive-icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dadbot9000.etiquettern"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "backgroundColor": "#020408"
+      },
+      "package": "com.dadbot9000.etiquettern"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset",
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4b684ed7-183c-47ed-89a7-fcbf47d99405"
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+Airline class standards, hotel etiquette, and chauffeur relations.
+Almuerzo de negocios
+ANIMATION_DONE
+Apretones de manos, reverencias y reglas de precedencia.
+Art of Conversation
+Assessment modulu
+Audio Init Error:
+Audio Sync Error:
+Augenkontakt, Distanz (Proxemik) und Mikrogesten.
+bandpass
+base64
+Beileidsbekundungen, Trauerkleidung und Verhalten bei Zeremonien.
+Besuchsetikette
+Bilet wizytowy i networking
+BLADE
+blocks.I.title
+BLOK I
+BLOK II
+BLOK III
+BLOK IV
+BLOK V
+BLOK VI
+box-none
+Bread and Butter
+Brot und Butter
+Business Cards and Networking
+Business Etiquette
+Business Hierarchy
+Business Lunch
+Business Travel
+Business-Etikette
+Business-Lunch
+c
+Café, té y postre
+Case study
+chevron-forward
+Classic forms: letters, invitations, and thank-you notes.
+Coffee, Tea, and Dessert
+Cómo comer con clase espárragos, mariscos y pasta.
+Comunicación no verbal
+Contacto visual, distancia (proxémica) y microgestos.
+Control emocional y elegancia en la argumentación empresarial.
+Correspondencia escrita
+crystalSweep
+Dania trudne w konsumpcji
+Dar el pésame, atuendo de luto y comportamiento en ceremonias.
+dark
+Das Ritual des Visitenkartenaustauschs und Elite-Networking.
+data:image/png;base64,__BG_PNG_BASE64__
+Desde la etiqueta de la corte de Versalles hasta los estándares modernos.
+Die Abstandsregel zur Tischkante und die Ellbogen-Todeszone.
+Die Kunst der Begrüßung
+Die Kunst der Bewegung, Gestik und nonverbalen Manifestation von Klasse.
+Die Kunst der Konversation
+Die Kunst der Serviette
+Difficult Dishes
+Digital Etiquette
+Digitale Etikette
+Diplomatic and Ceremonial Protocol
+Diplomatisches und zeremonielles Protokoll
+Dobór tematów (Small Talk), techniki sluchania i tabu.
+Don't have an account?
+dziura
+edgeGlow
+Einladungen, Pünktlichkeit und die Kunst des Schenkens.
+El arte de la conversación
+El arte de la servilleta
+El arte del movimiento, el gesto y la manifestación no verbal de la clase.
+El arte del saludo
+El cuidado personal como base del respeto por uno mismo y por los demás.
+El ritual del intercambio de tarjetas y networking de élite.
+email-address
+Emotional control and elegance in business argumentation.
+Emotionskontrolle und Eleganz in der Business-Argumentation.
+Estándares de clases aéreas, etiqueta de hotel y relación con el chófer.
+Estándares para llamadas de voz y videoconferencias.
+Etikette der Tasse und des kleinen Dessertbestecks.
+Etikette im Flugzeug, Hotel und mit ausländischen Partnern.
+Etiqueta de la taza y los cubiertos pequeños de postre.
+Etiqueta de luto y funeral
+Etiqueta de viaje
+Etiqueta de visitas
+Etiqueta digital
+Etiqueta empresarial
+Etiqueta en aviones, hoteles y con socios extranjeros.
+Etiqueta religiosa e intercultural
+Etiqueta telefónica
+Etiquette in planes, hotels, and with foreign partners.
+Etiquette of the cup and small dessert cutlery.
+Etykieta biznesowa
+Etykieta cyfrowa
+Etykieta filizanki i malych sztucców deserowych.
+Etykieta podrózy
+Etykieta religijna i miedzykulturowa
+Etykieta telefoniczna
+Etykieta w samolocie, hotelu i wobec zagranicznych partnerów.
+Etykieta wizyt
+Etykieta zaloby i pogrzebu
+evenodd
+expo-asset
+expo-file-system/legacy
+expo-splash-screen
+Eye contact, distance (proxemics), and micro-gestures.
+fade
+fast
+finalChime
+Formas clásicas: cartas, invitaciones y notas de agradecimiento.
+Formy klasyczne: listy, zaproszenia i podziekowania.
+From Versailles court etiquette to modern elegance standards.
+Gedeck-Karte
+Geschäftsreisen
+Geschichte und Philosophie des Savoir-Vivre
+goldGrad
+goldRing
+Grooming as a foundation of respect for oneself and others.
+Haltung und Handplatzierung
+Haltung und Kinesik der Eleganz
+Händedruck, Verbeugung und Vorrangregeln in Beziehungen.
+handled
+Handshakes, bowing, and rules of precedence in relationships.
+Hierarchia w biznesie
+Hierarchie im Business
+highpass
+Higiena i pielegnacja
+Higiene y cuidado personal
+Historia i filozofia savoir-vivre
+Historia y filosofía del savoir-vivre
+History and Philosophy of Savoir-Vivre
+How to elegantly eat asparagus, seafood, and pasta.
+Hygiene and Grooming
+Hygiene und Körperpflege
+Imagen profesional ante la cámara y cultura del email.
+Introducing people according to social protocol.
+Invitaciones, rigor de puntualidad y el arte de regalar.
+Invitations, punctuality rigor, and the art of gift-giving.
+Jak z klasa jesc szparagi, owoce morza i makarony.
+Jerarquía en los negocios
+Jezyk znaków: od momentu rozlozenia po odejscie od stolu.
+Kaffee, Tee und Dessert
+Kawa, herbata i deser
+Klassische Formen: Briefe, Einladungen und Danksagungen.
+Komunikacja niewerbalna
+Kontakt wzrokowy, dystans (proksemika) i mikrogesty.
+Korespondencja pisemna
+Körperpflege als Grundlage des Respekts vor sich selbst und anderen.
+Kto komu podaje reke? Zasada precedencji w biurze i na spotkaniu.
+Kto placi? Gdzie usadzic goscia? Protokól przy stole biznesowym.
+La regla de la distancia al borde de la mesa y la zona muerta de los codos.
+language-outline
+Lenguaje de signos: desde el despliegue hasta el abandono de la mesa.
+Liczba pytan
+Liczba zagadnien
+lowpass
+Lunch biznesowy
+M90 60 H110 V140 H90 Z M90 60 H130 V75 H90 Z M90 100 H120 V115 H90 Z M90 140 H130 V155 H90 Z
+Mapa del cubierto
+Mapa nakrycia
+margin:0; overflow:hidden; background:transparent;
+margin:0; overflow:hidden; background:transparent; display:flex; justify-content:center; align-items:center;
+Materialy modulu
+Mecanismos para construir autoridad y presencia social en una fracción de segundo.
+Mechanismen zum Aufbau von Autorität und sozialer Präsenz in Sekundenschnelle.
+Mechanisms of building authority and social presence in a split second.
+Mechanizmy budowania autorytetu i obecnosci spolecznej w ulamku sekundy.
+Meetings, das Ritual des Visitenkartenaustauschs und Eleganz in Verhandlungen.
+Meetings, the ritual of exchanging business cards, and elegance in negotiations.
+metal
+middle
+miter
+mleka
+Mourning and Funeral Etiquette
+nav_home
+Navegación por cubiertos, cristalería y platos de pan.
+Navigating cutlery, glassware, and bread plates.
+Navigation durch Besteck, Gläser und Brotteller.
+Nawigacja po sztuccach, szkle i talerzykach pieczywa.
+Negociaciones y charlas difíciles
+Negocjacje i trudne rozmowy
+Negotiations & Tough Talks
+Netiqueta en correos, mensajería y redes sociales.
+Netiquette in E-Mails, Messengern und sozialen Medien.
+Netiquette in emails, messengers, and social media.
+Netykieta w e-mailach, komunikatorach i social media.
+never
+none
+Non-verbal Communication
+Nonverbale Kommunikation
+Od etykiety dworu wersalskiego po wspólczesne standardy elegancji.
+Offering condolences, mourning attire, and ceremonial behavior.
+Opanowanie emocji i elegancja w argumentacji biznesowej.
+Pan y mantequilla
+person-circle-outline
+Personen nach gesellschaftlichem Protokoll vorstellen.
+Pieczywo i maslo
+Pielegnacja jako fundament szacunku do siebie i otoczenia.
+Platos difíciles de comer
+Podróze sluzbowe
+Postawa i kinezjetyka elegancji
+Postawa i ulozenie rak
+Postura y colocación de las manos
+Postura y quinésica de la elegancia
+Posture and Hand Placement
+Posture and Kinesics of Elegance
+Präsentation und Hierarchie
+Presentación y jerarquía
+Presentar a las personas según el protocolo social.
+Presentation and Hierarchy
+Prezentacja i hierarchia
+Profesjonalny wizerunek przed kamera i kultura e-mail.
+Professional image on camera and email culture.
+Professionelles Image vor der Kamera und E-Mail-Kultur.
+Próg zaliczenia
+Protocolo diplomático y ceremonial
+Protokól dyplomatyczny i ceremonialny
+Przedstawianie osób zgodnie z protokolem spolecznym.
+Psicología de la primera impresión
+Psychologia pierwszego wrazenia
+Psychologie des ersten Eindrucks
+Psychology of First Impressions
+PUTU
+Pytania faktograficzne
+react
+react-native
+react-native-webview
+Regeln für das Brechen von Brot und das fehlerfreie Auftragen von Butter.
+Reglas de precedencia estatal, ceremonias oficiales y títulos.
+Reglas para partir el pan y aplicar la mantequilla sin errores.
+Reiseetikette
+Religiöse und interkulturelle Etikette
+Religious and Intercultural Etiquette
+Respect for diversity: behavior in places of worship and different cultures.
+Respekt vor Vielfalt: Verhalten in Kultstätten und verschiedenen Kulturen.
+Respeto a la diversidad: comportamiento en lugares de culto y diferentes culturas.
+Reuniones, ritual de intercambio de tarjetas y elegancia en negociaciones.
+rg
+rgba(212,175,55,0.03)
+rgba(255,185,30,0)
+rgba(255,185,30,0.08)
+rgba(255,185,30,0.16)
+rgba(255,185,30,0.24)
+rgba(255,210,60,0.55)
+rgba(255,210,80,0.34)
+rgba(255,230,140,0.24)
+rgba(255,240,170,0.12)
+rgba(255,250,185,0)
+rgba(255,250,185,0.10)
+rgba(255,250,185,0.35)
+rgba(255,250,185,0.85)
+rgba(255,255,220,0)
+rgba(255,255,255,0.95)
+rimLight
+ringHighlight
+ringMetal
+round
+Rules for breaking bread and applying butter flawlessly.
+Rytual wymiany wizytówek i budowanie bazy kontaktów z klasa.
+s
+Schriftliche Korrespondenz
+Schwierige Gerichte
+Selección de temas (Small Talk), técnicas de escucha y tabúes.
+Sign language: from unfolding to leaving the table.
+sine
+Skladanie kondolencji, ubiór zalobny i zachowanie podczas ceremonii.
+Spotkania, rytual wymiany wizytówek i elegancja w negocjacjach.
+square
+Staatliche Rangfolge, offizielle Zeremonien und Titel.
+Standards for voice calls and video conferences.
+Standards für Sprachanrufe und Videokonferenzen.
+Standards in Flugklassen, Hoteletikette und Chauffeur-Beziehungen.
+Standardy rozmów glosowych oraz wideokonferencji.
+Standardy w klasach lotniczych, etykieta hotelowa i relacja z szoferem.
+State precedence rules, official ceremonies, and titles.
+string
+Szacunek wobec róznorodnosci: zachowanie w miejscach kultu i róznych kulturach.
+Sztuka konwersacji
+Sztuka poruszania sie, gestykulacji i niewerbalnego manifestowania klasy.
+Sztuka powitania
+Sztuka uzywania serwetki
+szyn
+szyna
+Table Setting Map
+Tarjetas de visita y networking
+Telefon-Etikette
+Telephone Etiquette
+The Art of Greeting
+The art of movement, gesturing, and non-verbal manifestation of class.
+The Art of the Napkin
+The ritual of exchanging business cards and elite networking.
+The rule of distance from the table edge and the elbow dead zone.
+Themenauswahl (Small Talk), Zuhörtechniken und Tabus.
+tiq_
+Topic selection (Small Talk), listening techniques, and taboos.
+transparent
+Trauer- und Beerdigungsetikette
+Travel Etiquette
+TYPEN2
+ui.blocks.I.title
+ui.nav_home
+url(#edgeGlow)
+url(#goldGrad)
+url(#goldRing)
+url(#metal)
+url(#rimLight)
+url(#ringMetal)
+Usciski dloni, uklony i zasady pierwszenstwa w relacjach.
+UTF-8
+Verhandlungen & Harte Gespräche
+Viajes de negocios
+Video Calls & Netiquette
+Videokonferenzen & Netiquette
+Videollamadas y netiqueta
+viewport
+Visit Etiquette
+Visitenkarten und Networking
+Von der Etikette des Versailler Hofes bis zu modernen Eleganzstandards.
+Wer gibt wem die Hand? Rangfolge im Büro und bei Meetings.
+Wer zahlt? Sitzordnung für Gäste? Business-Tischprotokoll.
+Who pays? Where to seat the guest? Business table protocol.
+Who shakes whose hand? Precedence in the office and meetings.
+Wideokonferencje i netykieta
+Wie man Spargel, Meeresfrüchte und Pasta elegant isst.
+WOOBAM
+WOOSH
+Written Correspondence
+xMidYMid slice
+Zaproszenia, rygor punktualnosci i sztuka dobierania prezentów.
+Zasada odleglosci od krawedzi stolu i martwa strefa lokci.
+Zasady lamania chleba i nakladania masla bez bledów.
+Zasady precedencji panstwowej, oficjalne ceremonie i tytulatura.
+Zeichensprache: vom Entfalten do zum Verlassen des Tisches.

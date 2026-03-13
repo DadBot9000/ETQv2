@@ -1,0 +1,1154 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260312133934
+Username: BADBULL\New User
+RunAs User: BADBULL\New User
+Configuration Name: 
+Machine: BADBULL (Microsoft Windows NT 10.0.26200.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'C:\dev\ETIQUETTE\ETIQUETTE'
+Process ID: 6820
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is WNK.txt
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+UI HARD-CODED AUDIT COMPLETE
+Findings: 7
+Report: reports/ui-hardcoded-audit-report.json
+PS C:\dev\ETIQUETTE\ETIQUETTE> head -n 40 reports/ui-hardcoded-audit-report.json
+head : The term 'head' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ head -n 40 reports/ui-hardcoded-audit-report.json
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (head:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+head : The term 'head' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ head -n 40 reports/ui-hardcoded-audit-report.json
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (head:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 40
+[
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 180,
+    "text": "Liczba zagadnieÅ„",
+    "suggestedKey": "liczba_zagadnie",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 181,
+    "text": "Liczba pytaÅ„",
+    "suggestedKey": "liczba_pyta",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 182,
+    "text": "Pytania faktograficzne",
+    "suggestedKey": "pytania_faktograficzne",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 183,
+    "text": "Case study",
+    "suggestedKey": "case_study",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 184,
+    "text": "PrÃ³g zaliczenia",
+    "suggestedKey": "pr_g_zaliczenia",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 530,
+    "text": "MateriaÅ‚y moduÅ‚u",
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 40
+[
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 180,
+    "text": "Liczba zagadnieÅ„",
+    "suggestedKey": "liczba_zagadnien",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 181,
+    "text": "Liczba pytaÅ„",
+    "suggestedKey": "liczba_pytan",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 182,
+    "text": "Pytania faktograficzne",
+    "suggestedKey": "pytania_faktograficzne",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 183,
+    "text": "Case study",
+    "suggestedKey": "case_study",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 184,
+    "text": "PrÃ³g zaliczenia",
+    "suggestedKey": "prog_zaliczenia",
+    "type": "PropLiteral"
+  },
+  {
+    "file": "C:\\dev\\ETIQUETTE\\ETIQUETTE\\src\\screens\\ModuleScreen.js",
+    "line": 530,
+    "text": "MateriaÅ‚y moduÅ‚u",
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 40
+[
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 180,
+    "text": "Liczba zagadnień",
+    "suggestedKey": "liczba_zagadnien",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 181,
+    "text": "Liczba pytań",
+    "suggestedKey": "liczba_pytan",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 182,
+    "text": "Pytania faktograficzne",
+    "suggestedKey": "pytania_faktograficzne",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 183,
+    "text": "Case study",
+    "suggestedKey": "case_study",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 184,
+    "text": "Próg zaliczenia",
+    "suggestedKey": "prog_zaliczenia",
+    "type": "PropLiteral:label"
+  }
+]
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 80
+[
+  {
+    "file": "src/components/BottomNav.js",
+    "line": 109,
+    "text": "navigate('HOME')} />",
+    "suggestedKey": "navigate_home",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/components/BottomNav.js",
+    "line": 115,
+    "text": "navigate('modules')} />",
+    "suggestedKey": "navigate_modules",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/components/BottomNav.js",
+    "line": 121,
+    "text": "navigate('certs')} />",
+    "suggestedKey": "navigate_certs",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 6,
+    "text": "Central & Eastern Europe",
+    "suggestedKey": "central_and_eastern_europe",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 10,
+    "text": "Anglo-Saxon World",
+    "suggestedKey": "anglo_saxon_world",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 124,
+    "text": "setOpen(false)} >",
+    "suggestedKey": "setopen_false",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/components/MSCPanel.js",
+    "line": 487,
+    "text": "removeCustomTrack(tr)} /> ))}",
+    "suggestedKey": "removecustomtrack_tr",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/components/TopicCard.js",
+    "line": 34,
+    "text": "renderRichText(content), [content]); return (",
+    "suggestedKey": "renderrichtext_content_content_return",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/screens/HomeScreen.js",
+    "line": 429,
+    "text": "navigate('modules')} >",
+    "suggestedKey": "navigate_modules",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 125,
+    "text": "Info o module",
+    "suggestedKey": "info_o_module",
+    "type": "TextLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 132,
+    "text": "Info o module",
+    "suggestedKey": "info_o_module",
+    "type": "JsxChildLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs | Select-String "TOP_FILES_START","TOP_FILES_END","src/"
+
+TOP_FILES_START
+17	src/screens/ModuleScreen.js
+5	src/screens/ModulesScreen.js
+3	src/components/BottomNav.js
+3	src/components/CulturalTrackSwitcher.tsx
+1	src/components/MSCPanel.js
+1	src/components/TopicCard.js
+1	src/screens/HomeScreen.js
+1	src/screens/UserHomeScreen.js
+TOP_FILES_END
+
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 80
+[
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 6,
+    "text": "Central & Eastern Europe",
+    "suggestedKey": "central_and_eastern_europe",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 10,
+    "text": "Anglo-Saxon World",
+    "suggestedKey": "anglo_saxon_world",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 125,
+    "text": "Info o module",
+    "suggestedKey": "info_o_module",
+    "type": "TextLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 135,
+    "text": "Szczegóły struktury i assessmentu",
+    "suggestedKey": "szczego_y_struktury_i_assessmentu",
+    "type": "TextLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 170,
+    "text": "Liczba zagadnień",
+    "suggestedKey": "liczba_zagadnien",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 171,
+    "text": "Liczba pytań",
+    "suggestedKey": "liczba_pytan",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 172,
+    "text": "Pytania faktograficzne",
+    "suggestedKey": "pytania_faktograficzne",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 173,
+    "text": "Case study",
+    "suggestedKey": "case_study",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 174,
+    "text": "Próg zaliczenia",
+    "suggestedKey": "prog_zaliczenia",
+    "type": "PropLiteral:label"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 187,
+    "text": "Kontekst modułu",
+    "suggestedKey": "kontekst_modu_u",
+    "type": "TextLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+    "line": 294,
+    "text": "Brak treści dla wybranej ścieżki",
+    "suggestedKey": "brak_tresci_dla_wybranej_sciezki",
+    "type": "TextLiteral"
+  },
+  {
+    "file": "src/screens/ModuleScreen.js",
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs | Select-String "TOP_FILES_START","TOP_FILES_END","src/"
+
+TOP_FILES_START
+10	src/screens/ModuleScreen.js
+8	src/screens/ModulesScreen.js
+2	src/components/CulturalTrackSwitcher.tsx
+TOP_FILES_END
+
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines = Get-Content src/screens/ModuleScreen.js
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines[110..330]
+}) {
+  return (
+    <View
+      style={{
+        marginBottom: 18,
+        borderRadius: 20,
+        overflow: 'hidden',
+      }}
+    >
+      <Pressable onPress={onToggle}>
+        <LinearGradient
+          colors={['rgba(255,255,255,0.04)', 'rgba(255,255,255,0.02)']}
+          style={{
+            borderRadius: 20,
+            borderWidth: 1,
+            borderColor: 'rgba(255,255,255,0.08)',
+            paddingVertical: 14,
+            paddingHorizontal: 16,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
+        >
+          <View>
+            <Text
+              style={{
+                color: theme.colors.text,
+                fontSize: 15,
+                fontFamily: 'PlayfairDisplay_600',
+                marginBottom: 3,
+              }}
+            >
+              Info o module
+            </Text>
+            <Text
+              style={{
+                color: 'rgba(255,255,255,0.46)',
+                fontSize: 12,
+              }}
+            >
+              SzczegÃ³Å‚y struktury i assessmentu
+            </Text>
+          </View>
+
+          <Text
+            style={{
+              color: open ? theme.colors.gold : 'rgba(255,255,255,0.54)',
+              fontSize: 18,
+              transform: [{ rotate: open ? '180deg' : '0deg' }],
+            }}
+          >
+            â–¾
+          </Text>
+        </LinearGradient>
+      </Pressable>
+
+      {open ? (
+        <LinearGradient
+          colors={['rgba(255,255,255,0.03)', 'rgba(255,255,255,0.015)']}
+          style={{
+            marginTop: 10,
+            borderRadius: 20,
+            borderWidth: 1,
+            borderColor: 'rgba(255,255,255,0.06)',
+            paddingHorizontal: 16,
+            paddingTop: 6,
+            paddingBottom: 14,
+          }}
+        >
+          <DetailRow label="Liczba zagadnieÅ„" value={String(topicsCount)} />
+          <DetailRow label="Liczba pytaÅ„" value={String(quizCount)} />
+          <DetailRow label="Pytania faktograficzne" value={String(factualCount)} />
+          <DetailRow label="Case study" value={String(caseStudyCount)} />
+          <DetailRow label="PrÃ³g zaliczenia" value={`${passScore}%`} isLast={!culturalNote} />
+
+          {culturalNote ? (
+            <View
+              style={{
+                marginTop: 14,
+                borderRadius: 16,
+                borderWidth: 1,
+                borderColor: 'rgba(255,255,255,0.05)',
+                backgroundColor: 'rgba(255,255,255,0.02)',
+                padding: 14,
+              }}
+            >
+              <Text
+                style={{
+                  color: 'rgba(255,255,255,0.56)',
+                  fontSize: 12,
+                  textTransform: 'uppercase',
+                  letterSpacing: 1,
+                  marginBottom: 6,
+                }}
+              >
+                Kontekst moduÅ‚u
+              </Text>
+              <Text
+                style={{
+                  color: 'rgba(255,255,255,0.74)',
+                  fontSize: 14,
+                  lineHeight: 22,
+                }}
+              >
+                {culturalNote}
+              </Text>
+            </View>
+          ) : null}
+        </LinearGradient>
+      ) : null}
+    </View>
+  );
+}
+
+export default function ModuleScreen({
+  t,
+  lang = 'EN',
+  navigate,
+  currentModuleId,
+  currentMode,
+  setCurrentMode,
+  quiz,
+  setQuiz,
+}) {
+  const { width } = Dimensions.get('window');
+  const isWide = width >= 860;
+  const { state, markVisited } = useLearningPaths();
+  const [infoOpen, setInfoOpen] = useState(false);
+
+      const TRACK_PROFILE_MAP = {
+  A: 'FR',
+  B: 'JP',
+  C: 'SE',
+};
+
+const activeTrackId = state.activeTrackOrder?.[0] || 'A';
+const cultureProfile = TRACK_PROFILE_MAP[activeTrackId] || 'FR';
+
+const presentation = useMemo(() => {
+  return getResolvedModulePresentation(
+    currentModuleId,
+    [cultureProfile],
+    lang
+  );
+}, [currentModuleId, lang, cultureProfile]);
+
+  const moduleView = presentation?.resolved || null;
+
+  useEffect(() => {
+    if (!moduleView) return;
+    markVisited(moduleView.trackId, moduleView.core.id);
+  }, [moduleView, markVisited]);
+
+  const switchMode = (mode) => {
+    setCurrentMode(mode);
+    if (mode === 'test') {
+      setQuiz({
+        current: 0,
+        answers: [],
+        confirmed: {},
+        submitted: false,
+        score: 0,
+      });
+    }
+  };
+
+  if (!moduleView) {
+    return (
+      <View style={{ flex: 1, paddingHorizontal: 20, paddingTop: 24 }}>
+        <Pressable
+          onPress={() => navigate('modules')}
+          style={{
+            alignSelf: 'flex-start',
+            paddingVertical: 8,
+            paddingHorizontal: 12,
+            borderRadius: 999,
+            borderWidth: 1,
+            borderColor: 'rgba(255,255,255,0.08)',
+            backgroundColor: 'rgba(255,255,255,0.02)',
+            marginBottom: 22,
+          }}
+        >
+          <Text
+            style={{
+              color: theme.colors.textMuted,
+              fontSize: 12,
+              letterSpacing: 0.3,
+            }}
+          >
+            â† {t('back').replace('â† ', '')}
+          </Text>
+        </Pressable>
+
+                <Text
+          style={{
+            color: theme.colors.text,
+            fontSize: 24,
+            fontFamily: 'PlayfairDisplay_700',
+            marginBottom: 8,
+          }}
+        >
+          Brak treÅ›ci dla wybranej Å›cieÅ¼ki
+        </Text>
+
+        <Text
+          style={{
+            color: 'rgba(255,255,255,0.58)',
+            fontSize: 13,
+            lineHeight: 20,
+          }}
+        >
+          moduleId: {String(currentModuleId || 'UNKNOWN')}
+        </Text>
+      </View>
+    );
+  }
+
+  const { core, content } = moduleView;
+
+  const localizedTitle = resolveLocalizedText(content?.title, lang);
+  const localizedSubtitle = resolveLocalizedText(content?.subtitle, lang);
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines = Get-Content src/screens/ModuleScreen.js
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines[330..520]
+  const localizedSubtitle = resolveLocalizedText(content?.subtitle, lang);
+
+  const localizedCulturalContext = resolveLocalizedText(
+    content?.culturalContext,
+    lang
+  );
+
+  const topics = Array.isArray(content?.topics)
+    ? content.topics.map((topic) => ({
+        ...topic,
+        title: resolveLocalizedText(topic.title, lang),
+        content: resolveLocalizedText(topic.content, lang),
+      }))
+    : [];
+
+  const quizData = Array.isArray(content?.quiz)
+    ? content.quiz.map((question) => ({
+        ...question,
+        question: resolveLocalizedText(question.question, lang),
+        explanation: resolveLocalizedText(question.explanation, lang),
+        options: Array.isArray(question.options)
+          ? question.options.map((option) =>
+              resolveLocalizedText(option, lang)
+            )
+          : [],
+      }))
+    : [];
+
+  const topicsCount = presentation?.metrics?.topicsCount ?? topics.length;
+  const quizCount = presentation?.metrics?.quizCount ?? quizData.length;
+  const factualCount = presentation?.metrics?.factualCount ?? 0;
+  const caseStudyCount = presentation?.metrics?.caseStudyCount ?? 0;
+
+  return (
+    <View style={{ flex: 1 }}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{
+          paddingHorizontal: 20,
+          paddingTop: 48,
+          paddingBottom: 120,
+          maxWidth: 1120,
+          alignSelf: 'center',
+          width: '100%',
+        }}
+      >
+        <Pressable
+          onPress={() => navigate('modules')}
+          style={{
+            alignSelf: 'flex-start',
+            paddingVertical: 8,
+            paddingHorizontal: 12,
+            borderRadius: 999,
+            borderWidth: 1,
+            borderColor: 'rgba(255,255,255,0.08)',
+            backgroundColor: 'rgba(255,255,255,0.02)',
+            marginBottom: 22,
+          }}
+        >
+          <Text
+            style={{
+              color: theme.colors.textMuted,
+              fontSize: 12,
+              letterSpacing: 0.3,
+            }}
+          >
+            â† {t('back').replace('â† ', '')}
+          </Text>
+        </Pressable>
+
+        <LinearGradient
+          colors={[
+            'rgba(212,175,55,0.12)',
+            'rgba(255,255,255,0.035)',
+            'rgba(255,255,255,0.012)',
+          ]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={{
+            borderRadius: 34,
+            borderWidth: 1,
+            borderColor: 'rgba(255,255,255,0.08)',
+            paddingHorizontal: width > 480 ? 28 : 22,
+            paddingVertical: width > 480 ? 28 : 22,
+            marginBottom: 20,
+            overflow: 'hidden',
+          }}
+        >
+          <View
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              height: 1,
+              backgroundColor: 'rgba(212,175,55,0.22)',
+            }}
+          />
+
+          <View
+            style={{
+              width: 56,
+              height: 2,
+              borderRadius: 999,
+              backgroundColor: 'rgba(212,175,55,0.75)',
+              marginBottom: 18,
+            }}
+          />
+
+          <View
+            style={{
+              flexDirection: isWide ? 'row' : 'column',
+              justifyContent: 'space-between',
+              gap: 20,
+            }}
+          >
+            <View style={{ flex: 1, maxWidth: 860 }}>
+              <Text
+                style={{
+                  color: 'rgba(255,240,190,0.60)',
+                  fontSize: 11,
+                  letterSpacing: 2,
+                  textTransform: 'uppercase',
+                  marginBottom: 12,
+                }}
+              >
+                Module experience
+              </Text>
+
+              <Text
+                style={{
+                  fontSize: width > 480 ? 52 : 42,
+                  marginBottom: 14,
+                }}
+              >
+                {core.icon}
+              </Text>
+
+              <Text
+                style={{
+                  color: theme.colors.gold,
+                  fontSize: width > 480 ? 40 : 31,
+                  lineHeight: width > 480 ? 48 : 38,
+                  fontFamily: 'PlayfairDisplay_700',
+                  marginBottom: 12,
+                }}
+              >
+                                {localizedTitle}
+              </Text>
+
+              <Text
+                style={{
+                  color: 'rgba(255,255,255,0.78)',
+                  fontSize: width > 480 ? 19 : 17,
+                  lineHeight: width > 480 ? 28 : 25,
+                  fontFamily: 'CormorantGaramond_400_Italic',
+                  marginBottom: 14,
+                  maxWidth: 760,
+                }}
+              >
+                                {localizedSubtitle}
+              </Text>
+
+              <Text
+                style={{
+                  color: 'rgba(255,255,255,0.52)',
+                  fontSize: 13,
+                  lineHeight: 22,
+                  maxWidth: 760,
+                }}
+              >
+                {t('module_intro_text')}
+              </Text>
+            </View>
+          </View>
+        </LinearGradient>
+
+        <ModuleInfoDropdown
+          open={infoOpen}
+          onToggle={() => setInfoOpen((prev) => !prev)}
+          topicsCount={topicsCount}
+          quizCount={quizCount}
+          factualCount={factualCount}
+          caseStudyCount={caseStudyCount}
+          passScore={core.cutoffPass}
+          culturalNote={presentation?.culturalNote || ''}
+        />
+
+        <View
+          style={{
+            flexDirection: 'row',
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 80
+[
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 6,
+    "text": "Central & Eastern Europe",
+    "suggestedKey": "central_and_eastern_europe",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/components/CulturalTrackSwitcher.tsx",
+    "line": 10,
+    "text": "Anglo-Saxon World",
+    "suggestedKey": "anglo_saxon_world",
+    "type": "ObjectLiteral:label"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 38,
+    "text": "Akademia Savoir-Vivre",
+    "suggestedKey": "akademia_savoir_vivre",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 39,
+    "text": "Program Akademii obejmuje sześć bloków tematycznych i dwadzieścia osiem modułów rozwijających kompetencje społeczne, kulturowe, biznesowe i ceremonialne. Wybierz blok, a następnie przejdź do modułu.",
+    "suggestedKey": "program_akademii_obejmuje_szesc_blokow_tematycznych_i_dwadziescia_osiem_modu_ow_",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 46,
+    "text": "Academia de Savoir-Vivre",
+    "suggestedKey": "academia_de_savoir_vivre",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 47,
+    "text": "El programa de la Academia incluye seis bloques temáticos y veintiocho módulos dedicados a las competencias sociales, culturales, empresariales y ceremoniales. Elige un bloque y después entra en un módulo.",
+    "suggestedKey": "el_programa_de_la_academia_incluye_seis_bloques_tematicos_y_veintiocho_modulos_d",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 54,
+    "text": "Savoir-Vivre Akademie",
+    "suggestedKey": "savoir_vivre_akademie",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 55,
+    "text": "Das Akademieprogramm umfasst sechs Themenblöcke und achtundzwanzig Module zu sozialen, kulturellen, geschäftlichen und zeremoniellen Kompetenzen. Wählen Sie einen Block und öffnen Sie anschließend ein Modul.",
+    "suggestedKey": "das_akademieprogramm_umfasst_sechs_themenblocke_und_achtundzwanzig_module_zu_soz",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 61,
+    "text": "Savoir-Vivre Academy",
+    "suggestedKey": "savoir_vivre_academy",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 62,
+    "text": "The Academy programme includes six thematic blocks and twenty-eight modules covering social, cultural, business and ceremonial competence. Choose a block and then open a module.",
+    "suggestedKey": "the_academy_programme_includes_six_thematic_blocks_and_twenty_eight_modules_cove",
+    "type": "ObjectLiteral:text"
+  }
+]
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines = Get-Content src/screens/ModulesScreen.js
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines[20..90]
+import { theme } from '../styles/theme';
+
+function getModuleCountLabel(lang, moduleCount) {
+  if (lang === 'PL') {
+    if (moduleCount === 1) return 'moduÅ‚';
+    if (moduleCount >= 2 && moduleCount <= 4) return 'moduÅ‚y';
+    return 'moduÅ‚Ã³w';
+  }
+
+  if (lang === 'ES') {
+    return moduleCount === 1 ? 'mÃ³dulo' : 'mÃ³dulos';
+  }
+
+  if (lang === 'DE') {
+    return 'Module';
+  }
+
+  return moduleCount === 1 ? 'module' : 'modules';
+}
+
+function getBlockLabel(lang) {
+  if (lang === 'PL') return 'BLOK';
+  if (lang === 'ES') return 'BLOQUE';
+  return 'BLOCK';
+}
+
+function getHeroCopy(lang) {
+  if (lang === 'PL') {
+    return {
+      title: 'Akademia Savoir-Vivre',
+      text:
+        'Program Akademii obejmuje szeÅ›Ä‡ blokÃ³w tematycznych i dwadzieÅ›cia osiem moduÅ‚Ã³w rozwijajÄ…cych kompetencje spoÅ‚eczne, kulturowe, biznesowe i ceremonialne. Wybierz blok, a nastÄ™pnie przejdÅº do moduÅ‚u.',
+    };
+  }
+
+  if (lang === 'ES') {
+    return {
+      title: 'Academia de Savoir-Vivre',
+      text:
+        'El programa de la Academia incluye seis bloques temÃ¡ticos y veintiocho mÃ³dulos dedicados a las competencias sociales, culturales, empresariales y ceremoniales. Elige un bloque y despuÃ©s entra en un mÃ³dulo.',
+    };
+  }
+
+  if (lang === 'DE') {
+    return {
+      title: 'Savoir-Vivre Akademie',
+      text:
+        'Das Akademieprogramm umfasst sechs ThemenblÃ¶cke und achtundzwanzig Module zu sozialen, kulturellen, geschÃ¤ftlichen und zeremoniellen Kompetenzen. WÃ¤hlen Sie einen Block und Ã¶ffnen Sie anschlieÃŸend ein Modul.',
+    };
+  }
+
+  return {
+    title: 'Savoir-Vivre Academy',
+    text:
+      'The Academy programme includes six thematic blocks and twenty-eight modules covering social, cultural, business and ceremonial competence. Choose a block and then open a module.',
+  };
+}
+
+function BlockSelectorCard({
+  block,
+  active,
+  onPress,
+  title,
+  subtitle,
+  moduleCount,
+  lang,
+}) {
+  const blockLabel = getBlockLabel(lang);
+  const moduleLabel = getModuleCountLabel(lang, moduleCount);
+
+  return (
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines = Get-Content src/components/CulturalTrackSwitcher.tsx
+PS C:\dev\ETIQUETTE\ETIQUETTE> $lines[0..80]
+import React, { useState } from 'react';
+import { Modal, Pressable, Text, View } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+
+import { useLearningPaths } from '../state/learning/LearningPathsContext';
+import { theme } from '../styles/theme';
+
+const TRACK_META = {
+  A: {
+    short: 'CEE',
+    label: 'Central & Eastern Europe',
+  },
+  B: {
+    short: 'Anglo-Saxon',
+    label: 'Anglo-Saxon World',
+  },
+  C: {
+    short: 'IberoamÃ©rica',
+    label: 'IberoamÃ©rica',
+  },
+  D: {
+    short: 'DACH',
+    label: 'DACH',
+  },
+} as const;
+
+function TrackOption({
+  trackId,
+  active,
+  onPress,
+}: {
+  trackId: string;
+  active: boolean;
+  onPress: () => void;
+}) {
+  const meta = TRACK_META[trackId];
+
+  return (
+    <Pressable onPress={onPress}>
+      <LinearGradient
+        colors={
+          active
+            ? ['rgba(212,175,55,0.16)', 'rgba(255,255,255,0.04)']
+            : ['rgba(255,255,255,0.035)', 'rgba(255,255,255,0.015)']
+        }
+        style={{
+          borderRadius: 22,
+          borderWidth: 1,
+          borderColor: active ? 'rgba(212,175,55,0.22)' : 'rgba(255,255,255,0.07)',
+          paddingHorizontal: 16,
+          paddingVertical: 15,
+          marginBottom: 12,
+        }}
+      >
+        <Text
+          style={{
+            color: active ? theme.colors.gold : theme.colors.text,
+            fontSize: 15,
+            fontFamily: active ? 'PlayfairDisplay_700' : 'PlayfairDisplay_600',
+            marginBottom: 4,
+          }}
+        >
+          {trackId} Â· {meta.short}
+        </Text>
+
+        <Text
+          style={{
+            color: active ? 'rgba(255,240,190,0.72)' : 'rgba(255,255,255,0.52)',
+            fontSize: 12,
+            lineHeight: 18,
+          }}
+        >
+          {meta.label}
+        </Text>
+      </LinearGradient>
+    </Pressable>
+  );
+}
+
+export default function CulturalTrackSwitcher({ t }: { t: (key: string) => string }) {
+  const { state, setPrimaryTrack } = useLearningPaths();
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 80
+[
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 38,
+    "text": "Akademia Savoir-Vivre",
+    "suggestedKey": "akademia_savoir_vivre",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 39,
+    "text": "Program Akademii obejmuje sześć bloków tematycznych i dwadzieścia osiem modułów rozwijających kompetencje społeczne, kulturowe, biznesowe i ceremonialne. Wybierz blok, a następnie przejdź do modułu.",
+    "suggestedKey": "program_akademii_obejmuje_szesc_blokow_tematycznych_i_dwadziescia_osiem_modu_ow_",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 46,
+    "text": "Academia de Savoir-Vivre",
+    "suggestedKey": "academia_de_savoir_vivre",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 47,
+    "text": "El programa de la Academia incluye seis bloques temáticos y veintiocho módulos dedicados a las competencias sociales, culturales, empresariales y ceremoniales. Elige un bloque y después entra en un módulo.",
+    "suggestedKey": "el_programa_de_la_academia_incluye_seis_bloques_tematicos_y_veintiocho_modulos_d",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 54,
+    "text": "Savoir-Vivre Akademie",
+    "suggestedKey": "savoir_vivre_akademie",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 55,
+    "text": "Das Akademieprogramm umfasst sechs Themenblöcke und achtundzwanzig Module zu sozialen, kulturellen, geschäftlichen und zeremoniellen Kompetenzen. Wählen Sie einen Block und öffnen Sie anschließend ein Modul.",
+    "suggestedKey": "das_akademieprogramm_umfasst_sechs_themenblocke_und_achtundzwanzig_module_zu_soz",
+    "type": "ObjectLiteral:text"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 61,
+    "text": "Savoir-Vivre Academy",
+    "suggestedKey": "savoir_vivre_academy",
+    "type": "ObjectLiteral:title"
+  },
+  {
+    "file": "src/screens/ModulesScreen.js",
+    "line": 62,
+    "text": "The Academy programme includes six thematic blocks and twenty-eight modules covering social, cultural, business and ceremonial competence. Choose a block and then open a module.",
+    "suggestedKey": "the_academy_programme_includes_six_thematic_blocks_and_twenty_eight_modules_cove",
+    "type": "ObjectLiteral:text"
+  }
+]
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/audit-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content reports/ui-hardcoded-audit-report.json -TotalCount 80
+[]
+PS C:\dev\ETIQUETTE\ETIQUETTE> node scripts/check-ui-hardcoded-strings.mjs
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> Get-Content package.json
+{
+  "name": "etiquette",
+  "version": "1.0.3",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "create:module": "node scripts/create-learning-module.mjs",
+    "generate:learning-registry": "node scripts/generate-learning-registry.mjs",
+    "generate:learning-source-registry": "node scripts/generate-learning-source-registry.mjs",
+    "normalize:learning-source-modules": "node scripts/normalize-learning-source-modules.mjs",
+    "validate:learning-source-modules": "node scripts/validate-learning-source-modules.mjs",
+    "fix:learning-source-modules": "node scripts/fix-learning-source-modules.mjs",
+    "fix:learning-source-modules:dry": "node scripts/fix-learning-source-modules.mjs --dry-run",
+    "fix:learning-source-modules:strict": "node scripts/fix-learning-source-modules.mjs --strict",
+    "validate:learning-source-modules:strict": "node scripts/validate-learning-source-modules.mjs --strict",
+    "validate:learning-source-modules:dry": "node scripts/validate-learning-source-modules.mjs --dry-run",
+    "normalize:learning-source-modules:dry": "node scripts/normalize-learning-source-modules.mjs --dry-run",
+    "normalize:learning-source-modules:strict": "node scripts/normalize-learning-source-modules.mjs --strict",
+    "generate:learning-source-registry:dry": "node scripts/generate-learning-source-registry.mjs --dry-run",
+    "generate:learning-source-registry:strict": "node scripts/generate-learning-source-registry.mjs --strict",
+    "generate:learning-translation-registry": "node scripts/generate-learning-translation-registry.mjs",
+    "generate:learning-translation-registry:dry": "node scripts/generate-learning-translation-registry.mjs --dry-run",
+    "generate:learning-translation-registry:strict": "node scripts/generate-learning-translation-registry.mjs --strict",
+    "refresh:learning-translation-source-hashes": "node scripts/refresh-learning-translation-source-hashes.mjs",
+    "refresh:learning-translation-source-hashes:dry": "node scripts/refresh-learning-translation-source-hashes.mjs --dry-run",
+    "refresh:learning-translation-source-hashes:strict": "node scripts/refresh-learning-translation-source-hashes.mjs --strict",
+    "sync:learning-translations": "npm run refresh:learning-translation-source-hashes && npm run generate:learning-translation-registry:strict",
+    "sync:learning-translations:dry": "npm run refresh:learning-translation-source-hashes:dry && npm run generate:learning-translation-registry:dry",
+    "validate:learning-translations": "node scripts/validate-learning-translation-pipeline.mjs",
+    "validate:learning-translations:module": "node scripts/validate-learning-translation-pipeline.mjs --module=M_01",
+    "report:learning-translation-coverage": "node scripts/generate-learning-translation-coverage-report.mjs",
+    "report:learning-translation-coverage:dry": "node scripts/generate-learning-translation-coverage-report.mjs --dry-run",
+    "report:learning-translation-gaps": "node scripts/generate-learning-translation-gap-report.mjs",
+    "report:learning-translation-gaps:dry": "node scripts/generate-learning-translation-gap-report.mjs --dry-run",
+    "report:learning-translation-gaps:missing": "node scripts/generate-learning-translation-gap-report.mjs --only-missing",
+    "bootstrap:learning-translation-overlays": "node scripts/bootstrap-learning-translation-overlays.mjs",
+    "ai:bootstrap-learning-translations": "node scripts/ai-bootstrap-learning-translations.mjs",
+    "bootstrap:learning-translation-overlays:dry": "node scripts/bootstrap-learning-translation-overlays.mjs --dry-run",
+    "report:learning-translation-quality": "node scripts/generate-learning-translation-quality-report.mjs",
+    "report:learning-translation-quality:dry": "node scripts/generate-learning-translation-quality-report.mjs --dry-run",
+    "report:learning-translation-quality:non-empty": "node scripts/generate-learning-translation-quality-report.mjs --only-non-empty",
+    "report:learning-translations": "node scripts/generate-learning-translation-report-bundle.mjs",
+    "report:learning-translations:dry": "node scripts/generate-learning-translation-report-bundle.mjs --dry-run",
+    "validate:learning-runtime": "node scripts/validate-learning-runtime.mjs",
+    "check:learning-module-consistency": "node scripts/check-learning-module-consistency.mjs",
+    "start": "npm run generate:learning-registry && expo start",
+    "android": "npm run generate:learning-registry && expo start --android",
+    "ios": "npm run generate:learning-registry && expo start --ios",
+    "web": "npm run generate:learning-registry && expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/netinfo": "11.4.1",
+    "@react-native-community/slider": "5.0.1",
+    "@react-native-google-signin/google-signin": "^16.1.2",
+    "expo": "~54.0.0",
+    "expo-asset": "~12.0.12",
+    "expo-av": "^16.0.8",
+    "expo-blur": "~15.0.8",
+    "expo-dev-client": "~6.0.20",
+    "expo-document-picker": "~14.0.8",
+    "expo-file-system": "~19.0.21",
+    "expo-font": "~14.0.11",
+    "expo-haptics": "~15.0.8",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-splash-screen": "~31.0.13",
+    "expo-updates": "~29.0.16",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-svg": "15.12.1",
+    "react-native-webview": "13.15.0",
+    "react-native-worklets": "0.5.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "~54.0.10",
+    "typescript": "~5.9.2"
+  }
+}
+PS C:\dev\ETIQUETTE\ETIQUETTE> npm run audit:ui-hardcoded-strings
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> npm run check:ui-hardcoded-strings
+
+PS C:\dev\ETIQUETTE\ETIQUETTE> npm run start
+
